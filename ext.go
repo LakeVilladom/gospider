@@ -5,13 +5,14 @@ import (
 	"crypto/md5"
 	"encoding/csv"
 	"fmt"
-	"github.com/rs/zerolog"
-	"github.com/slyrz/robots"
-	"github.com/zhshch2002/goreq"
 	"io"
 	"strings"
 	"sync"
 	"sync/atomic"
+
+	"github.com/lakevilladom/goreq"
+	"github.com/rs/zerolog"
+	"github.com/slyrz/robots"
 )
 
 func WithDeduplicate() Extension {

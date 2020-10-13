@@ -4,10 +4,11 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"github.com/stretchr/testify/assert"
-	"github.com/zhshch2002/goreq"
 	"net/http"
 	"testing"
+
+	"github.com/lakevilladom/goreq"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestWithDeduplicate(t *testing.T) {

@@ -2,15 +2,16 @@ package gospider
 
 import (
 	"crypto/md5"
-	"github.com/rs/zerolog"
-	"github.com/rs/zerolog/pkgerrors"
-	"github.com/zhshch2002/goreq"
 	"io/ioutil"
 	"net/url"
 	"os"
 	"runtime"
 	"sort"
 	"strings"
+
+	"github.com/lakevilladom/goreq"
+	"github.com/rs/zerolog"
+	"github.com/rs/zerolog/pkgerrors"
 )
 
 var log = zerolog.New(zerolog.ConsoleWriter{Out: os.Stdout}).With().Timestamp().Stack().Logger()

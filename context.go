@@ -2,8 +2,9 @@ package gospider
 
 import (
 	"fmt"
+
+	"github.com/lakevilladom/goreq"
 	"github.com/rs/zerolog"
-	"github.com/zhshch2002/goreq"
 )
 
 type Context struct {

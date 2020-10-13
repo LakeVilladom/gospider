@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/zhshch2002/goreq"
-	"github.com/zhshch2002/gospider"
+	"github.com/lakevilladom/goreq"
+	"github.com/lakevilladom/gospider"
 )
 
 func main() {

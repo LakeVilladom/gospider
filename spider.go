@@ -3,10 +3,11 @@ package gospider
 import (
 	"errors"
 	"fmt"
-	"github.com/PuerkitoBio/goquery"
-	"github.com/tidwall/gjson"
-	"github.com/zhshch2002/goreq"
 	"sync"
+
+	"github.com/PuerkitoBio/goquery"
+	"github.com/lakevilladom/goreq"
+	"github.com/tidwall/gjson"
 )
 
 var (

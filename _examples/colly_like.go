@@ -2,8 +2,8 @@ package main
 
 import (
 	"github.com/PuerkitoBio/goquery"
-	"github.com/zhshch2002/goreq"
-	"github.com/zhshch2002/gospider"
+	"github.com/lakevilladom/goreq"
+	"github.com/lakevilladom/gospider"
 )
 
 /* colly example http://go-colly.org/docs/examples/basic/

@@ -3,11 +3,12 @@ package gospider
 import (
 	"errors"
 	"fmt"
-	"github.com/stretchr/testify/assert"
-	"github.com/zhshch2002/goreq"
 	"net/http"
 	"net/http/httptest"
 	"testing"
+
+	"github.com/lakevilladom/goreq"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestNewSpider(t *testing.T) {

@@ -1,5 +1,5 @@
 # Gospider
-[![codecov](https://codecov.io/gh/zhshch2002/gospider/branch/master/graph/badge.svg)](https://codecov.io/gh/zhshch2002/gospider)
+[![codecov](https://codecov.io/gh/lakevilladom/gospider/branch/master/graph/badge.svg)](https://codecov.io/gh/lakevilladom/gospider)
 
 [中文文档](https://gospider.athorx.com/)
 
@@ -7,7 +7,7 @@
 
 `Gospider`得益于Go便捷的协程，具有极高的效率。同时提供类似`colly`和`scrapy`两种处理方式。
 
-* Goreq - https://github.com/zhshch2002/goreq
+* Goreq - https://github.com/lakevilladom/goreq
 
 ## 🚀Feature
 
@@ -24,7 +24,7 @@
 ## ⚡网络请求
 
 ```shell
-go get -u github.com/zhshch2002/goreq
+go get -u github.com/lakevilladom/goreq
 ```
 
 Goreq使用`goreq.Get`来创建请求，之后可以使用*链式操作*进行参数、请求头等的配置。最后，加上`.Do()`这个请求就会被`net/http`执行，得到返回结果。
@@ -59,7 +59,7 @@ Goreq可以设置中间件、更换Http Client。请见[Goreq](./goreq.md)一章
 ## ⚡建立爬虫
 
 ```shell
-go get -u github.com/zhshch2002/gospider
+go get -u github.com/lakevilladom/gospider
 ```
 
 第一个例子：
@@ -68,8 +68,8 @@ go get -u github.com/zhshch2002/gospider
 package main
 
 import (
-	"github.com/zhshch2002/goreq"
-	"github.com/zhshch2002/gospider"
+	"github.com/lakevilladom/goreq"
+	"github.com/lakevilladom/gospider"
 )
 
 func main() {
@@ -131,8 +131,8 @@ package main
 
 import (
 	"github.com/PuerkitoBio/goquery"
-	"github.com/zhshch2002/goreq"
-	"github.com/zhshch2002/gospider"
+	"github.com/lakevilladom/goreq"
+	"github.com/lakevilladom/gospider"
 )
 
 /* colly example http://go-colly.org/docs/examples/basic/
